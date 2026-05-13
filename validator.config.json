@@ -1,24 +1,26 @@
 {
   "jiraBaseUrl": "https://tempofficial02.atlassian.net",
   "jiraProjectKey": "KAN",
-  "defaultJiraKey": "KAN-1",
-  "defaultFeatureBranch": "origin/kan-1-leetcode-link-fix",
-  "defaultPreviewPayload": true,
-  "defaultSummary": true,
-  "defaultAiStageAPreview": true,
-  "defaultComments": true,
-  "defaultBaseBranch": "origin/dev",
-  "defaultRemote": "origin",
-  "allowedRemotes": ["https://github.com/varaprasad-rasuri-iraspace/*"],
-  "aiProvider": "openai",
-  "aiModel": "gpt-4o",
-  "validationDefaults": {
+  "jiraDefaultIssueKey": "KAN-1",
+  "scmDefaultFeatureBranch": "origin/kan-1-leetcode-link-fix",
+  "scmDefaultPreviewPayload": true,
+  "scmDefaultSummary": true,
+  "scmDefaultAiStageAPreview": true,
+  "jiraDefaultComments": true,
+  "scmDefaultBaseBranch": "origin/dev",
+  "scmDefaultRemote": "origin",
+  "scmAllowedRemotes": ["https://github.com/varaprasad-rasuri-iraspace/*"],
+  "jiraValidationDefaults": {
     "readDescription": true,
     "readComments": true,
-    "runJiraQualityCheck": true,
+    "runJiraQualityCheck": true
+  },
+  "scmValidationDefaults": {
     "branchBehindWarningThreshold": 25
   },
-  "diff": {
+  "aiProvider": "openai",
+  "aiModel": "gpt-4o",
+  "scmDiff": {
     "contextLines": 1,
     "mode": "direct"
   },
