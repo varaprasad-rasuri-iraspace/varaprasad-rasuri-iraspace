@@ -21,8 +21,17 @@ echo  2.run-validator.bat
 echo '
 echo =======
 
-echo on
-
 REM call copy /Y C:\code\coaching\vara\git-change-validator\validator.config.json .
 
-PAUSE Press enter, if above are done. Else Ctrl+C to cancel && call node C:\code\coaching\vara\git-change-validator\dist\cli.js validate
+echo off
+echo '
+echo on
+
+echo off
+echo Press ENTER key if above are done. Ctrl+C to cancel
+echo on
+
+PAUSE
+
+echo on
+echo Please wait... && call node C:\code\coaching\vara\git-change-validator\dist\cli.js validate
