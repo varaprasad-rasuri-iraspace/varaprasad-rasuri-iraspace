@@ -13,11 +13,11 @@ echo '
 echo 2 Copy file (s) from validator repo
 echo  my-project-repo/.env
 echo  my-project-repo/validator.config.json
-echo  my-project-repo/run-validator.bat
+echo  my-project-repo/2.run-validator.bat
 echo '
 echo 3 Run validator
 echo  cd my-project-repo
-echo  run-validator.bat
+echo  2.run-validator.bat
 echo '
 echo =======
 
