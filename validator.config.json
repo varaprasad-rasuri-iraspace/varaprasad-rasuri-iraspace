@@ -22,8 +22,6 @@
   "scmValidationDefaults": {
     "scmBranchBehindWarningThreshold": 25
   },
-  "aiProvider": "openai",
-  "aiModel": "gpt-5-nano-2025-08-07",
   "aiBudgetLimits": {
     "aiMaxDiffChars": 24000,
     "aiMaxDiffCharsHardLimit": 80000,
