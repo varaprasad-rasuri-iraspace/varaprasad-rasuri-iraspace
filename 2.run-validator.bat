@@ -21,7 +21,7 @@ echo  2.run-validator.bat
 echo '
 echo =======
 
-REM call copy /Y C:\code\coaching\vara\git-change-validator\validator.config.json .
+call copy /Y C:\code\coaching\vara\git-change-validator\validator.config.json .
 
 echo off
 echo '
