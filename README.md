@@ -12,7 +12,7 @@
 | 🏘 **[AI Signal](https://gitlab.com/varaprasad-rasuri/ai-signal)**                   | Real-time intelligence platform for tracking AI developments with intelligent scoring and neural graph visualization. | [▶ Demo](https://iraspace.com/) |
 | 🏘 **[MCP Dashboard](https://gitlab.com/varaprasad-rasuri/mcp-dashboard)**           | A modular dashboard that displays live updates (news, sports, stocks, etc.) using MCP servers.                        | [▶ Demo](https://iraspace.com/) |
 | 📊 **[LuminaStack](https://gitlab.com/varaprasad-rasuri/lumina-stack)**              | AI starter kit with Docker & Prisma                                                                                   | [▶ Demo](https://iraspace.com/) |
-| 🧠 **[LeetCode Solutions](https://gitlab.com/varaprasad-rasuri/leetcode-solutions)** | 500+ optimized DSA solutions                                                                                          | [▶ Demo](https://leetcode.com/u/varaprasad-rasuri/) |
+| 🧠 **[LeetCode Solutions](https://gitlab.com/varaprasad-rasuri/leetcode-solutions)** | 500+ optimized DSA solutions                                                                                          | [▶ Demo](https://iraspace.com/) |
 
 ---
 
