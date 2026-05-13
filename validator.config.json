@@ -1,0 +1,51 @@
+{
+  "jiraBaseUrl": "https://tempofficial02.atlassian.net",
+  "jiraProjectKey": "KAN",
+  "defaultJiraKey": "KAN-1",
+  "defaultFeatureBranch": "origin/kan-1-leetcode-link-fix",
+  "defaultPreviewPayload": true,
+  "defaultSummary": true,
+  "defaultAiStageAPreview": true,
+  "defaultComments": true,
+  "defaultBaseBranch": "origin/dev",
+  "defaultRemote": "origin",
+  "allowedRemotes": ["https://github.com/varaprasad-rasuri-iraspace/*"],
+  "aiProvider": "openai",
+  "aiModel": "gpt-4o",
+  "validationDefaults": {
+    "readDescription": true,
+    "readComments": true,
+    "runJiraQualityCheck": true,
+    "branchBehindWarningThreshold": 25
+  },
+  "diff": {
+    "contextLines": 1,
+    "mode": "direct"
+  },
+  "stackContext": "Next.js App Router + NestJS",
+  "excludePaths": [
+    "package-lock.json",
+    "yarn.lock",
+    "pnpm-lock.yaml",
+    "dist/*",
+    ".next/*",
+    "build/*",
+    "node_modules/*",
+    "*.snap",
+    "*.min.js",
+    "*.bundle.js"
+  ],
+  "testFilePatterns": ["*.test.ts", "*.spec.ts", "__tests__/**", "e2e/**"],
+  "budgetLimits": {
+    "aiMaxDiffChars": 24000,
+    "maxDiffCharsHardLimit": 80000,
+    "maxAiCallsPerRun": 12,
+    "requireConfirmationAboveChars": 50000,
+    "aiChunkMaxChars": 12000,
+    "aiChunkMaxCount": 12
+  },
+  "policy": {
+    "allowExternalAiCalls": true,
+    "allowPostingToJira": false
+  }
+}
