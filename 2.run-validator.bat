@@ -1,7 +1,7 @@
 call cls
 
 echo off
-REM node C:\code\coaching\vara\git-change-validator\dist\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview
+REM node C:\code\gitlab\git-change-validator\dist\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview
 
 echo NOTE:
 echo =======
@@ -22,7 +22,7 @@ echo '
 echo =======
 
 echo ======= FOR TESTING ONLY
-REM call copy /Y C:\code\coaching\vara\git-change-validator\validator.config.json .
+REM call copy /Y C:\code\gitlab\git-change-validator\validator.config.json .
 
 echo off
 echo '
@@ -35,4 +35,4 @@ echo on
 PAUSE
 
 echo on
-echo Please wait... && call node C:\code\coaching\vara\git-change-validator\dist\cli.js validate
+echo Please wait... && call node C:\code\gitlab\git-change-validator\dist\cli.js validate
