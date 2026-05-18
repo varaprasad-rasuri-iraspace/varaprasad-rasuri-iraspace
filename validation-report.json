@@ -1,0 +1,201 @@
+{
+  "report": {
+    "reportVersion": "1.0.0",
+    "schemaVersion": "2026-05-11",
+    "health": "clean",
+    "machineSummary": {
+      "health": "clean",
+      "exitCode": 0,
+      "errorCount": 0,
+      "warningCount": 1,
+      "processedChunks": 1,
+      "totalChunks": 1,
+      "aiCallsUsed": 3
+    },
+    "metadata": {
+      "generatedAt": "2026-05-18T01:01:09.443Z",
+      "diffMode": "direct",
+      "branch": "kan-1-leetcode-link-fix",
+      "contextLines": 1,
+      "redactionCount": 0,
+      "estimatedTokens": 474,
+      "chunkCount": 1,
+      "chunkTokenEstimates": [
+        473
+      ],
+      "coverageConfidenceNote": "Chunking ready for staged AI processing across 1 chunk(s)."
+    },
+    "findings": {
+      "incorrect": [],
+      "missing": [],
+      "matched": [
+        {
+          "id": "INFO-ai-requirement-matched-1",
+          "code": "ai-requirement-matched",
+          "severity": "warning",
+          "message": "AI matched 1 requirement mapping(s).",
+          "evidence": [
+            "info-only matched coverage signal"
+          ]
+        }
+      ],
+      "extra": []
+    },
+    "sections": {
+      "summary": "Validation checks are clean.",
+      "jiraQuality": "JIRA description is present.",
+      "implementationCoverage": "Diff origin/dev..kan-1-leetcode-link-fix includes 2 changed files and 4 commits. AI coverage: behaviors=1, matched=1, missing=0, extra=0, confidence=100.",
+      "safetyAndPolicy": "No safety hard-stop triggered.",
+      "nextActions": [
+        "Proceed to post AI validation stages/ Human review/ QA."
+      ],
+      "evidence": [
+        "[ai-requirement-matched] AI matched 1 requirement mapping(s).",
+        "  - info-only matched coverage signal"
+      ]
+    },
+    "counts": {
+      "safetyFindings": 0,
+      "nonAiFindings": 1
+    }
+  },
+  "jira": {
+    "key": "KAN-1",
+    "source": "branch",
+    "fetched": true,
+    "summary": "Fix Demo link for Leetcode",
+    "descriptionText": "Fix Demo link for LeeCode\n\nAt [https://github.com/varaprasad-rasuri-iraspace/varaprasad-rasuri-iraspace/blob/main/README.md](https://github.com/varaprasad-rasuri-iraspace/varaprasad-rasuri-iraspace/blob/main/README.md)\n\nplease fix the the Demo link against  LeetCode Solutions in the table to [https://leetcode.com/u/varaprasad-rasuri/](https://leetcode.com/u/varaprasad-rasuri/)",
+    "commentsText": "This can go in this sprint, verified that link in description is correct",
+    "descriptionChars": 379,
+    "descriptionIsEmpty": false,
+    "commentsIncluded": true
+  },
+  "git": {
+    "baseBranch": "origin/dev",
+    "featureBranch": "kan-1-leetcode-link-fix",
+    "diffMode": "direct",
+    "contextLines": 1,
+    "diffRange": "origin/dev..kan-1-leetcode-link-fix",
+    "changedFileCount": 2,
+    "commitCount": 4
+  },
+  "budget": {
+    "aiMaxDiffChars": 24000,
+    "requireConfirmationAboveChars": 50000,
+    "fullDiffChars": 1895,
+    "truncatedDiffChars": 1895,
+    "isDiffTruncated": false,
+    "estimatedTokens": 474,
+    "chunkCount": 1,
+    "chunkTokenEstimates": [
+      473
+    ]
+  },
+  "safety": {
+    "hardStop": false,
+    "redactionCount": 0,
+    "findingCount": 0,
+    "findings": []
+  },
+  "nonAi": {
+    "findings": [],
+    "findingCount": 0
+  },
+  "branchHealth": {
+    "aheadOfBase": 4,
+    "behindBase": 0
+  },
+  "testInventory": {
+    "allTestFileCount": 0,
+    "changedTestFileCount": 0,
+    "changedLogicFileCount": 0
+  },
+  "artifacts": {
+    "changedFiles": [
+      {
+        "status": "M",
+        "path": "2.run-validator.bat"
+      },
+      {
+        "status": "M",
+        "path": "README.md"
+      }
+    ],
+    "commits": [
+      "a13d8c5 update validator script to use gitlab validator path",
+      "886c88b Merge branch 'dev' of https://github.com/varaprasad-rasuri-iraspace/varaprasad-rasuri-iraspace into kan-1-leetcode-link-fix",
+      "d98063f Merge branch 'dev' of https://github.com/varaprasad-rasuri-iraspace/varaprasad-rasuri-iraspace into kan-1-leetcode-link-fix",
+      "aa340dd commit"
+    ],
+    "stats": "2.run-validator.bat | 6 +++---\n README.md           | 2 +-\n 2 files changed, 4 insertions(+), 4 deletions(-)",
+    "diff": "diff --git a/2.run-validator.bat b/2.run-validator.bat\nindex 412fbe8..f7817be 100644\n--- a/2.run-validator.bat\n+++ b/2.run-validator.bat\n@@ -3,3 +3,3 @@ call cls\n echo off\n-REM node C:\\code\\coaching\\vara\\git-change-validator\\dist\\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview\n+REM node C:\\code\\gitlab\\git-change-validator\\dist\\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview\n \n@@ -24,3 +24,3 @@ echo =======\n echo ======= FOR TESTING ONLY\n-REM call copy /Y C:\\code\\coaching\\vara\\git-change-validator\\validator.config.json .\n+REM call copy /Y C:\\code\\gitlab\\git-change-validator\\validator.config.json .\n \n@@ -37,2 +37,2 @@ PAUSE\n echo on\n-echo Please wait... && call node C:\\code\\coaching\\vara\\git-change-validator\\dist\\cli.js validate\n+echo Please wait... && call node C:\\code\\gitlab\\git-change-validator\\dist\\cli.js validate\ndiff --git a/README.md b/README.md\nindex 8564f4b..50ee387 100644\n--- a/README.md\n+++ b/README.md\n@@ -14,3 +14,3 @@\n | 📊 **[LuminaStack](https://gitlab.com/varaprasad-rasuri/lumina-stack)**              | AI starter kit with Docker & Prisma                                                                                   | [▶ Demo](https://iraspace.com/) |\n-| 🧠 **[LeetCode Solutions](https://gitlab.com/varaprasad-rasuri/leetcode-solutions)** | 500+ optimized DSA solutions                                                                                          | [▶ Demo](https://iraspace.com/) |\n+| 🧠 **[LeetCode Solutions](https://gitlab.com/varaprasad-rasuri/leetcode-solutions)** | 500+ optimized DSA solutions                                                                                          | [▶ Demo](https://leetcode.com/u/varaprasad-rasuri/) |\n \n"
+  },
+  "ai": {
+    "chunking": {
+      "ok": true,
+      "note": "Chunked into 1 chunk(s)."
+    },
+    "stageA": {
+      "jiraClarityScore": 85,
+      "requirementsCount": 1,
+      "reasoning": [
+        "The JIRA intent is to fix a broken link in the README.md file.",
+        "The constraint is that the link must point to the correct LeetCode profile.",
+        "This requirement matters as it ensures that users can access the correct LeetCode profile from the project's README.md file.",
+        "Fixing this issue will improve the project's usability and user experience."
+      ]
+    },
+    "stageB": {
+      "implementedBehaviors": 1,
+      "testCoverageNotes": 0,
+      "riskyAreas": 0,
+      "reasoning": [
+        "As the diff is not introducing any concrete content risk, the riskyAreas array is kept empty.",
+        "The diff in 2.run-validator.bat updates the path for the validator script and config file, but this does not affect the acceptance criteria for REQ-1 as it is a separate concern.",
+        "The diff in README.md updates the demo link for LeetCode Solutions from 'https://iraspace.com/' to 'https://leetcode.com/u/varaprasad-rasuri/', which maps to JIRA requirement REQ-1.",
+        "There are no automated tests added or modified in this diff, hence no test coverage notes are added."
+      ]
+    },
+    "stageC": {
+      "matched": 1,
+      "missing": 0,
+      "extra": 0,
+      "confidence": 100,
+      "reasoning": [
+        "REQ-1 was matched because the demo link for LeetCode Solutions was updated in the README.md file as per the requirement.",
+        "The confidence score is 100 as the change is directly visible and no automated tests are required to verify this change.",
+        "There are no risky areas as this is a simple text update and does not involve any complex logic or system interaction."
+      ]
+    },
+    "reasoning": {
+      "jira": [
+        "The JIRA intent is to fix a broken link in the README.md file.",
+        "The constraint is that the link must point to the correct LeetCode profile.",
+        "This requirement matters as it ensures that users can access the correct LeetCode profile from the project's README.md file.",
+        "Fixing this issue will improve the project's usability and user experience."
+      ],
+      "diff": [
+        "As the diff is not introducing any concrete content risk, the riskyAreas array is kept empty.",
+        "The diff in 2.run-validator.bat updates the path for the validator script and config file, but this does not affect the acceptance criteria for REQ-1 as it is a separate concern.",
+        "The diff in README.md updates the demo link for LeetCode Solutions from 'https://iraspace.com/' to 'https://leetcode.com/u/varaprasad-rasuri/', which maps to JIRA requirement REQ-1.",
+        "There are no automated tests added or modified in this diff, hence no test coverage notes are added."
+      ],
+      "confidence": [
+        "REQ-1 was matched because the demo link for LeetCode Solutions was updated in the README.md file as per the requirement.",
+        "The confidence score is 100 as the change is directly visible and no automated tests are required to verify this change.",
+        "There are no risky areas as this is a simple text update and does not involve any complex logic or system interaction."
+      ]
+    },
+    "chunkExecution": {
+      "totalChunks": 1,
+      "processedChunks": 1,
+      "failedChunkIndexes": [],
+      "failedChunks": [],
+      "partialFailure": false
+    },
+    "budget": {
+      "aiCallsUsed": 3,
+      "maxAiCallsPerRun": 12
+    }
+  }
+}

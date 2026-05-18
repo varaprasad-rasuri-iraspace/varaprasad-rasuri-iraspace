@@ -35,4 +35,5 @@ echo on
 PAUSE
 
 echo on
-echo Please wait... && call node C:\code\gitlab\git-change-validator\dist\cli.js validate
+echo Please wait... && call node C:\code\coaching\vara\git-change-validator\\dist\cli.js validate
+REM echo Please wait... && call node C:\code\gitlab\git-change-validator\dist\cli.js validate
