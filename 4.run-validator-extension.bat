@@ -11,4 +11,4 @@ echo 2. Once launched, ctrl+shift+p, Git Change Validation: Open Panel
 
 echo Press ENTER key if above are done. Ctrl+C to cancel
 
-PAUSE && call code --new-window --extensionDevelopmentPath="C:\code\coaching\vara\git-change-validator-ext-share" "."
+PAUSE && call code --new-window --extensionDevelopmentPath="C:\code\coaching\vara\git-change-validator-release" "."
