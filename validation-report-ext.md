@@ -23,7 +23,7 @@
   +++ b/2.run-validator.bat
   @@ -3,3 +3,3 @@ call cls
    echo off
-  -REM node C:\code\coaching\vara\git-change-validator\dist\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview
+  -REM node C:\code\gitlab\git-change-validator\dist\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview
   +REM node C:\code\gitlab\git-change-validator\dist\cli.js validate --preview-payload --summary --comments --jira KAN-1 --from origin/dev --branch origin/kan-1-leetcode-link-fix --ai-stage-a-preview
   ...
 ====== FINAL SUMMARY:
