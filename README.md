@@ -1,6 +1,6 @@
 ## Hi, I'm Varaprasad Rasuri 👋
 
-13+ Years, Technical Architect/ Lead building scalable, cloud-native, and AI-powered applications.
+13+ Years, Technical Architect / Lead Software Engineer building scalable, cloud-native, and AI-powered applications.
 
 📍 India &nbsp;|&nbsp; [![LinkedIn](https://img.shields.io/badge/-Varaprasad_Rasuri-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/varaprasad-rasuri) [![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:varaprasad.rasuri@gmail.com) [![LeetCode](https://img.shields.io/badge/-500%2B_Problems-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/varaprasad-rasuri/) [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://gitlab.com/varaprasad-rasuri)
 
@@ -11,7 +11,10 @@
 | 🏘 **[AI Developer Radar](https://gitlab.com/varaprasad-rasuri/ai-developer-radar)** | Platform for discovering emerging AI tools and tracking GitLab projects                                               | [▶ Demo](https://iraspace.com/) |
 | 🏘 **[AI Signal](https://gitlab.com/varaprasad-rasuri/ai-signal)**                   | Real-time intelligence platform for tracking AI developments with intelligent scoring and neural graph visualization. | [▶ Demo](https://iraspace.com/) |
 | 🏘 **[MCP Dashboard](https://gitlab.com/varaprasad-rasuri/mcp-dashboard)**           | A modular dashboard that displays live updates (news, sports, stocks, etc.) using MCP servers.                        | [▶ Demo](https://iraspace.com/) |
-| 📊 **[LuminaStack](https://gitlab.com/varaprasad-rasuri/lumina-stack)**              | AI starter kit with Docker & Prisma                                                                                   | [▶ Demo](https://iraspace.com/) |
+| 📊 **[LuminaStack](https://gitlab.com/varaprasad-rasuri/lumina-stack)**              | AI starter kit with Docker & Prisma                                                                                   | [▶ Demo](https://iraspace.com/) |  
+| 🚫 **[Rejected AI Claims](https://gitlab.com/varaprasad-rasuri/rejected-ai-claim)** | Surfaces rejected AI claims with reasons, rejection patterns, and trend analytics in a live.    | [▶ Demo](https://rejected-ai-claim.vercel.app/) |
+| ✅ **[Git Change Validator](https://gitlab.com/varaprasad-rasuri/git-change-validator)** | Validates git changes against project rules, lint checks, and quality gates before merge.    | [▶ Demo](https://git-change-validator.vercel.app/) |
+| 📡 **[OpsPulse AI](https://gitlab.com/varaprasad-rasuri/opspulse-ai)**               | Real-time ops monitoring with AI-driven anomaly detection, health checks, and smart alerting through Discord.    | [▶ Demo](https://ops-pulse-ai.vercel.app/) |
 | 🧠 **[LeetCode Solutions](https://gitlab.com/varaprasad-rasuri/leetcode-solutions)** | 500+ optimized DSA solutions                                                                                          | [▶ Demo](https://iraspace.com/) |
 
 ---
@@ -20,7 +23,7 @@
 
 ## About Me
 
-I'm a Technical Lead who thinks architecture-first, ships clean code, and cares deeply about scalability, performance, and maintainability. I specialize in microservices, AWS cloud engineering, full-stack development (MERN/MEAN/Next.js), and AI-powered applications — building systems that serve millions to billions of users.
+I'm a Technical Architect who thinks architecture-first, ships clean code, and cares deeply about scalability, performance, and maintainability. I specialize in microservices, AWS cloud engineering, full-stack development (MERN/MEAN/Next.js), and AI-powered applications — building systems that serve millions to billions of users.
 
 **Production highlights:**
 
